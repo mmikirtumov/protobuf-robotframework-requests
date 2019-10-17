@@ -14,7 +14,7 @@ with open(version_file) as file:
       exec(code)
 
 DESCRIPTION = """
-Robot Framework keyword library wrapper around the HTTP client library requests.
+Robot Framework keyword library wrapper around the HTTP client library requests, support protobuf.
 """[1:-1]
 
 
@@ -26,15 +26,15 @@ Programming Language :: Python
 Topic :: Software Development :: Testing
 """[1:-1]
 
-setup(name         = 'robotframework-requests',
+setup(name         = 'protobuf-robotframework-requests',
       version      = VERSION,
-      description  = 'Robot Framework keyword library wrapper around requests',
+      description  = 'This library is a frok from https://pypi.org/project/robotframework-requests/. Robot Framework keyword library wrapper around requests, support protobuf',
       long_description = DESCRIPTION,
-      author       = 'Bulkan Savun Evcimen',
-      author_email = 'bulkan@gmail.com',
-      url          = 'http://github.com/bulkan/robotframework-requests',
+      author       = 'Bulkan Savun Evcimen, Mikayel Mikirtumov',
+      author_email = 'bulkan@gmail.com, mmikirtumov@gmail.com',
+      url          = 'https://github.com/mmikirtumov/protobuf-robotframework-requests',
       license      = 'MIT',
-      keywords     = 'robotframework testing test automation http client requests',
+      keywords     = 'robotframework testing test automation http client requests, support protobuf',
       platforms    = 'any',
       classifiers  = CLASSIFIERS.splitlines(),
       package_dir  = {'' : 'src'},
@@ -42,7 +42,8 @@ setup(name         = 'robotframework-requests',
       package_data = {'RequestsLibrary': ['tests/*.txt']},
       install_requires=[
           'robotframework',
-          'requests'
+          'requests',
+          'protobuf'
       ],
 )
 
