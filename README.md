@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/bulkan/robotframework-requests.png?branch=master)](https://travis-ci.org/bulkan/robotframework-requests)
-[![Latest Version](https://img.shields.io/pypi/v/robotframework-requests.svg)](https://pypi.python.org/pypi/robotframework-requests)
+[![Build Status](https://travis-ci.com/mmikirtumov/protobuf-robotframework-requests.svg?branch=master)](https://travis-ci.com/mmikirtumov/protobuf-robotframework-requests)
+[![Latest Version](https://img.shields.io/pypi/v/protobuf-robotframework-requests.svg)](https://pypi.python.org/pypi/protobuf-robotframework-requests)
 
 ``RequestsLibrary`` is a [Robot Framework](https://robotframework.org/) test library that uses the [Requests](https://github.com/kennethreitz/requests) HTTP client.
 
@@ -9,7 +9,7 @@ Install robotframework-requests and it's dependencies via ``pip``
 
 ```bash
 pip install -U requests
-pip install -U robotframework-requests
+pip install -U protobuf-robotframework-requests
 ```
 
 Here is a sample test case:
